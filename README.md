@@ -26,10 +26,20 @@ This repo includes two themes, horizon-bs and horizon-wind.
 
 This is a fully working Wordpress theme which uses Bootstrap 5 and webpack. It's a little dated and bloated in places, but provides a very quick and clean starting point for rapid template development.
 
+Within the theme folder run "npm install && npm run watch-sync" to start a browsersync session on http://localhost:3000
+
+When you're ready to commit to production, run "npm run production"
+
 ### horizon-wind
 
 Also fully working, but a work in progres. Based on tailpress this theme is intended to replace horizon-bs, at least on small sites where the bulk of bootstrap isn't required.
 
+Within the theme folder run "npm install && npm run watch-sync" to start a browsersync session on http://localhost:3000
+
+When you're ready to commit to production, run "npm run production"
+
 ### Custom themes
 
 If you're setting up an existing website or running Wordpress headlessly, the horion themes can be removed in place of your own.
+
+You can copy over the src, dist, package.json, tailwind.config.js and postcss.config.js files/folders from the horizon themes to utilise bootstrap or tailwind within your theme or just make use of the webpack scripts and browsersync.
