@@ -33,5 +33,3 @@ Also fully working, but a work in progres. Based on tailpress this theme is inte
 ### Custom themes
 
 If you're setting up an existing website or running Wordpress headlessly, the horion themes can be removed in place of your own.
-
-
