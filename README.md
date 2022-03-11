@@ -1,0 +1,33 @@
+# docker-wp-local
+
+A complete docker compose local development environment for Wordpress.
+
+Once you're got docker installed on your local machine, clone this repo, remove the remote "git remote remove origin" and use the command "docker-compose up".
+
+A small number of otions can be found in the .env file.
+
+Development and production credentials are differenciated by the getenv_docker('DEVELOPTMENT', 'PRODUCTION') function within the wp-config.php file.
+
+## Database
+
+You can access phpmyadmin at http://localhost:8081 and export/import your database.
+
+You can also provide an initial database in src/init-db in .sql format which will get exported on first launch.
+
+## Wordpress
+
+All Wordpress files and folders will be added to the www folder which you can then use as the web root on your production server. This folder is mounted on your local file system for editing within your chosen IDE/Editor.
+
+## Themes
+
+This repo includes two themes, horizon-bs and horizon-wind.
+
+### horizon-bs
+
+This is a fully working Wordpress theme which uses Bootstrap 5 adn webpack. It's a little dated and bloated in places, but provides a very quick and clean starting point for rapid template development.
+
+### horizon-wind
+
+Also fully working, but a work in progres. Based on tailpress this theme is intended to replace horizon-bs, at least on small sites where the bulk of bootstrap isn't required.
+
+
