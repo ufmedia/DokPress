@@ -1,8 +1,8 @@
 # docker-wp-local
 
-A complete docker compose local development environment for Wordpress.
+A complete [Docker Compose](https://docs.docker.com/compose/) local development environment for Wordpress.
 
-Once you're got docker installed on your local machine, clone this repo, remove the remote "git remote remove origin" and use the command "docker-compose up".
+Once you're got [Docker](https://www.docker.com/get-started) installed on your local machine, clone this repo, remove the remote "git remote remove origin" and use the command "docker-compose up".
 
 A small number of otions can be found in the .env file.
 
