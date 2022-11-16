@@ -10,11 +10,11 @@ docker compose up
 
 ## Database
 
-To ensure persistence of your database all files are stored locally in local/mysql-data.
+To ensure persistence of your database all files are stored locally in local/var/lib/mysql.
 
 #### Import an existing database
 
-You can provide an initial database .sql file in local/init-db which will get imported on first launch.
+You can provide an initial database .sql file in local/initial-db which will get imported on first run of the database container.
 
 #### PhpMyAdmin
 
@@ -22,10 +22,10 @@ PhpMyAdmin is available at http://localhost:8080
 
 ## Wordpress
 
-By default we're using the latest version of Wordpress from the official docker repo, you can change this in the .env file:
+By default we're using the version 6.1.0 of Wordpress running on Apache PHP8 from the [official docker repo](https://hub.docker.com/_/wordpress), you can change this in the .env file:
 
 ```
-WP_VERSION=latest
+WP_VERSION=6.1.0-php8.0-apache
 ```
 
 Database credentials are set in the .env file:
