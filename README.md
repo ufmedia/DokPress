@@ -2,7 +2,7 @@
 
 A complete [Docker Compose](https://docs.docker.com/compose/) local development environment for WordPress.
 
-Once you're got [Docker](https://www.docker.com/get-started) installed on your local machine, clone this repo, remove the remote "git remote remove origin" and use the command:
+Once you've got [Docker](https://www.docker.com/get-started) installed on your local machine, clone this repo, remove the remote "git remote remove origin" and use the command:
 
 ```
 docker compose up
