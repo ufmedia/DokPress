@@ -22,10 +22,10 @@ PhpMyAdmin is available at http://localhost:8080
 
 ## WordPress
 
-By default we're using the version 6.1.0 of WordPress running on Apache PHP8 from the [official docker repo](https://hub.docker.com/_/wordpress), you can change this in the .env file:
+By default we're using the version 6.3.1 of WordPress running on Apache PHP8 from the [official docker repo](https://hub.docker.com/_/wordpress), you can change this in the .env file:
 
 ```
-WP_VERSION=6.1.0-php8.0-apache
+WP_VERSION=6.3.1-php8.0-apache
 ```
 
 Database credentials are also set in the .env file and are used by both the WordPress and MySQL containers:
@@ -41,10 +41,10 @@ For persistence all files are stored locally in the root of the project. Dependi
 
 ## Themes
 
-Work in progress
+Take a look at my fork of the official Timber (Twig based) quick start theme which itself is a fork of the _s theme: [Timberpress](https://github.com/ufmedia/timberpress). This theme includes basic TailwindCSS classes, enough to rapidly build your UI.
 
-## Plugins
+To compliment this theme check out my webpack solution for compiling SASS and JS, this includes Tailwind and PostCSS: [Tailpack](https://github.com/ufmedia/tailpack)
 
-Work in progress
+
 
 
