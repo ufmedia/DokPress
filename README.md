@@ -60,10 +60,10 @@ PhpMyAdmin is available at http://localhost:8080
 
 ## WordPress
 
-By default we're using the version 6.3.1 of WordPress running on Apache PHP8 from the [official docker repo](https://hub.docker.com/_/wordpress), you can change this in the .env file:
+By default we're using the version 6.4.0 of WordPress running on Apache PHP8.2 from the [official docker repo](https://hub.docker.com/_/wordpress), you can change this in the .env file:
 
 ```
-WP_VERSION=6.3.1-php8.0-apache
+WP_VERSION=6.4.0-php8.2-apache
 ```
 For persistence all files are stored locally in the root of the project.
 
