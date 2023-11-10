@@ -1,4 +1,5 @@
-![GitHub contributors](https://img.shields.io/github/contributors-anon/ufmedia/dockpress)
+![GitHub contributors](https://img.shields.io/github/contributors-anon/ufmedia/dockpress) ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/ufmedia/dockpress)
+
 
 
 # DockPress
