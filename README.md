@@ -31,9 +31,10 @@ A complete [Docker Compose](https://docs.docker.com/compose/) local development 
 
 ## Getting Started
 
-Once you've got [Docker](https://www.docker.com/get-started) installed on your local machine, clone this repo, remove the remote "git remote remove origin" and use the command:
+Once you've got [Docker](https://www.docker.com/get-started) installed on your local machine, clone this repo, remove the remote and start the containers:
 
 ```
+git remote remove origin
 docker compose up
 ```
 
