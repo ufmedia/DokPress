@@ -1,3 +1,6 @@
+![GitHub contributors](https://img.shields.io/github/contributors-anon/ufmedia/dockpress)
+
+
 # DockPress
 
 A complete [Docker Compose](https://docs.docker.com/compose/) local development environment for WordPress.
