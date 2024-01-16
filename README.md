@@ -7,7 +7,7 @@
 DockPress is a complete Docker Compose local development environment tailored for WordPress.
 
 To learn more and get started, head over to the project [Wiki pages](https://github.com/ufmedia/dockpress/wiki).
-![DockPress](https://github.com/ufmedia/dockpress/blob/main/local/dockpress.png)
-<img src="https://github.com/ufmedia/dockpress/blob/main/local/dockpress.png" align="center" height="48" width="48" >
+
+<img src="https://github.com/ufmedia/dockpress/blob/main/local/dockpress.png" align="center" height="200" width="200" >
 
 
