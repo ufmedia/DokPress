@@ -7,3 +7,4 @@
 DockPress is a complete Docker Compose local development environment tailored for WordPress.
 
 To learn more and get started, head over to the project [Wiki pages](https://github.com/ufmedia/dockpress/wiki).
+![DockPress](https://github.com/ufmedia/dockpress/blob/main/local/dockpress.png)
