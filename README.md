@@ -1,6 +1,6 @@
 ![GitHub contributors](https://img.shields.io/github/contributors-anon/ufmedia/dockpress) ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/ufmedia/dockpress)
 
-<img src="https://github.com/ufmedia/dockpress/blob/main/local/dockpress.png" align="center" height="200" width="200" >
+<img src="https://github.com/ufmedia/dockpress/blob/main/local/dockpress.png" align="center" height="332" width="400" >
 
 # DockPress
 
